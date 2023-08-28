@@ -1,0 +1,27 @@
+
+body{
+    background-color: black;
+}
+
+.stream_main{
+    background: linear-gradient(180deg,#101d29,transparent 65%);
+    height: 15vh;
+    position: absolute;
+    width: 70vw;
+
+    display: flex;
+}
+
+.stream_sign{
+    transform: rotate(180deg);
+    max-width: 1.6em;
+    min-width: 1.5em;
+    padding-left: 0.13em;
+    color: #797a7b;
+    background: #e6e6e6;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 1.3em;
+    margin-right: 1.5em;
+
+}

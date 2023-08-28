@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.background_img{
+    height: 81.5%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.background_img img{
+    width: 100%;
+}
+
+.waste{
+    min-height: 55vh;
+    background: radial-gradient(circle at top,transparent,black 120%);
+}
+
+/*radial-gradient(circle at center,transparent,black 90%)*/
+
+.main_content{
+    display: flex;
+}
+
+.to_cover{
+    height: 120vh;
+    width: 10vw;
+    align-self: flex-end;
+    background: linear-gradient(to bottom, rgba(7, 7, 7, 0.755) -3%,rgba(7, 7, 7, 0.9) 6%,black);
+}
+
+.content_part{
+    width: 80vw;
+    height: 150vh;
+    background-color: black;
+    border-start-end-radius: 2em;
+    border-start-start-radius: 2em;
+    padding-top: 4em;
+    z-index: 1;
+}
+
+.waste_cover{
+    
+    position: absolute;
+    height: 30vh;
+    top: 55vh;
+    width: 98.9vw;
+    background: radial-gradient(circle at center,transparent,black 110%);
+}
+
+.inside_image{
+    margin-left: 4em;
+    margin-right: 5em;
+}
+
+.inside_image img{
+    width: 37em;
+    border-radius: 1.5em;
+}
+
+.containerBox{
+    display: flex;
+}
+
+.original_title{
+    font-family: "Roboto","Helvetica Neue",sans-serif;
+    margin-top: 0.3em;
+    font-size: 3.7em;
+    color: white;
+    font-weight: 700;
+}
+
+.date{
+    color: white;
+    font-size: 2.5em;
+    opacity: 0.7;
+    margin-top: 0.8em;
+    margin-left: 0.3em;
+}
+
+.also_like{
+    background-color: black; 
+    display: flex;
+    overflow-x: hidden;
+}
+
+.also_like img{
+    width: 22em;
+    margin: 0.5em;
+    margin-bottom: 4em;
+    border-radius: 0.7em;
+}
+
+.also_like_content{
+    color: white;
+    font-size: 2.3em;
+    font-family: "Roboto","Helvetica Neue",sans-serif;
+    font-weight: 500;
+    background-color: black;
+    padding-left: 0.2em;
+    border-bottom: 0.9em solid black;
+    text-transform: uppercase;
+}
+
+
+.overview_heading{
+    font-size: 3em;
+    position: absolute;
+    left: 20.4em;
+    top: 26.3em;
+    color: white;
+}
+
+.overview_content{
+    position: absolute;
+    width: 45vw;
+    font-size: 2em;
+    left: 30.6em;
+    top: 42em;
+    color: rgb(177, 173, 173);
+}
+
+.stream_main{
+    background: linear-gradient(180deg,#101d29,transparent 65%);
+    height: 15vh;
+    position: absolute;
+    width: 45vw;
+    left: 61.2em;
+    top: 55em;
+    display: flex;
+}
+
+.gene{
+    color: #6a7c8f;
+    font-size: 2.7em;
+    margin-top:0.5em ;
+    margin-bottom: -0.7em;
+}
+
+.gene_val{
+    display: flex;
+    color: white;
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+
+.runtime_content{
+    color: #6a7c8f;
+    font-size: 2.7em;
+    margin-top: 0.5em;
+}
+
+.runtime_value{
+     color: white;
+     font-size: 2em;
+     margin-top: 0.5em;
+}
+
+.director_content{
+    color: #6a7c8f;
+    font-size: 2.7em;
+    margin-top: 0.5em;
+}
+
+.director_name{
+    display: flex;
+    color: white;
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+
+.forSpace{
+    margin: 1em;
+    margin-left: 0em;
+}
+
+.director{
+    width: 37em;
+    margin-left: 3.5em;
+    margin-top: 1.5em;
+}
+
+.genes{
+  
+    width: 37em;
+    margin-top: 2.5em;
+    margin-left: 3.5em;
+}
+
+.runtime{
+    
+    width: 37em;
+    margin-left: 3.5em;
+}
+
+hr{
+    opacity: 0.2;
+}
+
+
+
+.stream{
+    color: white;
+    font-size: 2em;
+    margin-top: 1.25em;
+}
+
+.stream_sign{
+    transform: rotate(180deg);
+    max-width: 1.6em;
+    min-width: 1.5em;
+    padding-left: 0.13em;
+    color: #797a7b;
+    background: #e6e6e6;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 1.7em;
+    margin-right: 1.5em;
+
+}
+
+.swiper-wrapper{
+    width: 500%;
+    position: relative;
+    left: -42.1vw;
+}
+
+.swiper-slider{
+    margin: 1em;
+}
+
+
+
+

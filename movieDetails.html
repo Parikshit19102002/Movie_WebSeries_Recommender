@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="movieDetails.css">
+    <script src="movieDetails.js" defer></script>
+</head>
+<body>
+
+    <div class="main_body">
+        <div class="background_img"></div>
+
+        <div class="waste"></div>
+
+        <div class="waste_cover"></div>
+
+      <div class="main_content">
+
+        <div class="to_cover"></div>
+
+        <div class="content_part">
+
+          <div class="containerBox">
+            <div class="inside_image"></div>
+            <div class="original_title"></div>
+            <div class="date"></div>
+          </div>
+          
+          <div class="stream_main">
+
+          <div class="stream_sign">STREAM</div>
+          <div class="stream"></div>
+
+          </div>
+
+          
+            <div class="overview_heading">overview</div>
+            <div class="overview_content"></div>
+          
+          
+
+          <div class="genes">
+            <hr>
+            <div class="gene">GENRES</div>
+            <div class="gene_val"></div>
+         </div>
+ 
+         <div class="runtime">
+            <hr>
+            <div class="runtime_content">RUNTIME</div>
+            <div class="runtime_value"></div>
+         </div>
+
+         <div class="director">
+          <hr>
+          <div class="director_content">DIRECTOR</div>
+          <div class="director_name"></div>
+        </div>
+
+        </div>
+
+       
+
+        
+        <div class="to_cover"></div>
+
+      </div>
+
+
+       
+    <div class="also_like_content"></div>
+      
+    <div class="swiper mySwiper">
+        <div class="also_like swiper-wrapper"></div>
+
+       <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+       <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 6,
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+</body>
+</html>

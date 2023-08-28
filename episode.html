@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Episode Details</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="episodess.css">
+  <script src="episodes.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+
+  <div class="mainImage"></div>
+
+  <div class="mainB">
+    <div class="contentBox">
+        <div class="name"></div>
+        <div class="about"></div>
+        <div class="label"></div>
+    </div>
+  </div>
+  
+  <div class="episodeBox">
+    <div class="episodeName">Episodes
+      <br>
+      <br>
+      <hr>
+    </div>
+    
+   <div class="for_add  swiper mySwiper">
+
+    <div class="season swiper-wrapper"></div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+
+   </div>
+
+  </div>
+
+</div>
+
+<div class="Notfoun" id="extra">
+ Not Found
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 11,
+    centeredSlides: true,
+    spaceBetween: 13,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+  
+</body>
+</html>

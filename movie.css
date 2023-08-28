@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #060d17;
+    color: #d5d5d5;
+    width: 100%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.swiper{
+    width: 100%;
+}
+
+
+.main{
+    background-color:#060d17 ;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+
+
+.two{
+    width: 60vw;
+    left: 40vw;
+    position: relative;
+}
+
+input{
+   width: 70%;
+   height: 6vh;
+   padding-left: 3.5em;
+   font-size: 1.5em;
+   margin: 0.75em;
+   border-radius: 5em;
+   position: relative;
+   left: 6em;
+}
+
+#searchButton{
+    visibility: hidden;
+}
+
+
+
+.imge{
+    height: 3.6vh;
+    width: 1.6vw;
+    background-image: url("magnifying-glass-solid.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2em;
+    left: 7.5vw;
+    z-index: 2;
+}
+
+.home{
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    margin-top: 0.8em;
+    left: 25em;
+    font-size: 1.85em;
+    opacity: 0.65;
+}
+
+.home1{
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    margin-top: 0.8em;
+    font-size: 1.85em;
+    left: 18em;
+    opacity: 1;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.box-NotFound{
+    height: 88.3vh;
+}
+
+.Remove-NotFound{
+    display: none;
+}
+
+.imgBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    border-radius: 1em;
+    margin: 1.2em;
+}
+
+.waste{
+    height: 10vh;
+}
+
+
+.containerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.btn{
+    margin: 0.6em;
+    border-radius: 100em;
+    background: rgba(95, 93, 93, 0.5);
+    color: white;
+    padding: 0.4em 0.6em;
+    border: none;
+}
+
+
+.imgBox{
+    margin-left: 4.5em;
+}
+
+.bodys img{
+    width: 21.6em;
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    padding-top: 6em;
+    padding-bottom: 20em;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 50em;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0002,#0004);
+  }
+
+
+
+  .top_content{
+    margin: 0.5em;
+    margin-top: 2.5em;
+    font-size: 3.5em;
+  }
+
+  
+
+
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+.top img{
+    width: 20em;
+    margin: 0.7em;
+}
+
+.top_imgBox{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.upcoming_imgBox{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.latest_imgBox{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.superhero_imgBox{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.hindi_imgBox{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.actionMovie_imgBox{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.romantic_imgBox{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.thriller_imgBox{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.animated_imgBox{
+    display: flex;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
